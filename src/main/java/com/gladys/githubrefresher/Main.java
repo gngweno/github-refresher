@@ -9,6 +9,11 @@ public class Main {
 		System.out.println("Hello World, Hi from Gladys");
 	}
 	
+	//Added test method to test getSum method
+	public static int getSumTest(){
+		assertTrue (getSum(1,1),2);
+	}
+	
 	public static int getSum(int number1, int number2){
 		return number1 + number2;
 	}
