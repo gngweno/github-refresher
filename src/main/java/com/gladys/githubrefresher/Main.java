@@ -8,5 +8,9 @@ public class Main {
 		//print to the standard output
 		System.out.println("Hello World, Hi from Gladys");
 	}
+	
+	public static int getSum(int number1, int number2){
+		return number1 + number2;
+	}
 
 } 
