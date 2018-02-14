@@ -10,7 +10,7 @@ public class Main {
 	}
 	
 	//Added test method to test getSum method
-	public static int getSumTest(){
+	public static void getSumTest(){
 		assertTrue (getSum(1,1),2);
 	}
 	
@@ -21,7 +21,7 @@ public class Main {
 	public static int getDifference(int number1, int number2){
 		return number1 - number2;
 	}
-	public static int getDifferenceTest(){
+	public static void getDifferenceTest(){
 		assertTrue(getDifference(1,1),0);
 	}
 
