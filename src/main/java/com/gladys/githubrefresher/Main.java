@@ -24,5 +24,10 @@ public class Main {
 	public static void getDifferenceTest(){
 		assertTrue(getDifference(1,1),0);
 	}
-
+	public static int getProduct(int number1, int number2){
+		return number1 * number2;
+	}
+	public static void getProductTest(){
+		assertTrue(getDifference(1,1),1);
+	}
 } 
