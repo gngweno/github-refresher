@@ -30,4 +30,10 @@ public class Main {
 	public static void getProductTest(){
 		assertTrue(getDifference(1,1),1);
 	}
+	public static int getRemainder(int number1, int number2){
+		return number1 % number2;
+	}
+	public static void getRemainderTest(){
+		assertTrue(getRemainder(2,1),0);
+	}
 } 
