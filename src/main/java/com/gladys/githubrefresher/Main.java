@@ -21,5 +21,8 @@ public class Main {
 	public static int getDifference(int number1, int number2){
 		return number1 - number2;
 	}
+	public static int getDifferenceTest(){
+		assertTrue(getDifference(1,1),0);
+	}
 
 } 
